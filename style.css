@@ -73,15 +73,28 @@ body {
 #experience h3 { 
     font-size: 1.1rem; 
     margin-bottom: 4px; 
-  }
+}
   
-  #experience ul { 
+#experience ul { 
     margin-left: 20px; 
-  }
+}
   
-  /* Add spacing between each job */
-  #experience article {
-    margin-bottom: 2rem;  /* Adjust value as needed */
-  }
+#experience article {
+    margin-bottom: 2rem;  
+}
+  
+ /* Projects */
+#projects h3 { 
+    font-size: 1.1rem; 
+    margin-bottom: 6px; 
+}
+  
+#projects ul { 
+    margin-left: 20px; 
+}
   
   
+#projects article {
+    margin-bottom: 2rem;  
+}
+   
