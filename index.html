@@ -3,171 +3,181 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diksha Dilip Gaonkar</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Diksha Dilip Gaonkar | Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-YH5v8Jc7hj0Vv7XyFLhJ+6cBlh7B/7QQmNf3nHb5lq3UO5Kd4uO2XnT6xZpIhX7+Q9kp1vMxFipI5aXjV7sy3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+  <nav class="top-nav">
+    <a href="#summary">Summary</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+  </nav>
 
   <!-- Header -->
   <header class="site-header">
     <div class="header-inner container">
-      <h1 class="name">Diksha Dilip Gaonkar</h1>
-      <p class="title">Aspiring Data Analyst</p>
-      <nav class="contacts">
-        <a href="mailto:diksha.gaonkar098@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/dikshagaonkar/" target="www.linkedin.com/in/dikshagaonkar">LinkedIn</a>
-        <a href="https://github.com/diksha0106" target="https://github.com/diksha0106/Diksha-Gaonkar-Webpage.git">GitHub</a>
-      </nav>
+      <div class="header-left">
+        <img src="images/diksha.png" alt="Diksha Dilip Gaonkar headshot" class="headshot">
+      </div>
+      <div class="header-right">
+        <h1 class="name">Diksha Dilip Gaonkar</h1>
+        <p class="title">IT Business Analyst | Aspiring Data Analyst</p>
+        <nav class="contacts">
+          <a href="mailto:diksha.gaonkar098@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+          <a href="https://www.linkedin.com/in/dikshagaonkar/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/diksha0106" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main class="container">
+    
+    <!--Professional Summary -->
     <section id="summary" class="card">
-        <h2>Professional Summary</h2>
-        <p>
-          Results-driven Business Analyst with 3+ years of experience driving ERP
-          transformations, process improvements, and data-driven decision making.
-          Skilled in stakeholder collaboration, requirements analysis, and
-          delivering insights via dashboards and reports.
-        </p>
-    </section>  
+      <h2>Professional Summary</h2>
+      <p>Results-driven Business Analyst with 3 years of professional experience driving ERP transformations, process improvements, and data-driven decision making. Skilled in stakeholder collaboration, requirements analysis, and delivering insights via dashboards and reports.</p>
+    </section>
 
+    <!-- Education -->
     <section id="education" class="card">
-        <h2>Education</h2>
-        <p><strong>Illinois Institute of Technology</strong><br>
-           M.A.S. in Information Technology & Management<br>
-           Expected Graduation: Dec 2025</p>
-        <p><strong>University of Nebraska at Omaha</strong><br>
-           B.S. in Management Information Systems<br>
-           Graduated: Dec 2020 (Cum Laude)</p>
+      <h2>Education</h2>
+      <p><strong>Illinois Institute of Technology</strong><br><i>M.A.S. in Information Technology & Management</i><br><b>Expected Graduation:</b> Dec 2025</p>
+      <p class="education-spacing"><strong>University of Nebraska at Omaha</strong><br><i>B.S. in Management Information Systems</i><br><b>Graduated:</b> Dec 2020 (Cum Laude)</p>
     </section>
 
+    <!-- Skills -->
     <section id="skills" class="card">
-        <h2>Core Competencies</h2>
-        <ul>
-          <li><b>Business Tools: </b>Microsoft SQL Server, MySQL, Microsoft Project, MS Access, Power BI, Tableau, MS Visio, Smartsheet, Jira, Confluence, Trello, GitHub.</li>
-          <li><b>Business Analysis: </b>Requirements Gathering & Documentation, User Acceptance Testing (UAT), Workflow Analysis, Business Process Improvement, Software Integration, Project Deployments.</li>
-          <li><b>Data Skills: </b>SQL (queries, reports), Data Visualization, Data Analysis. </li>
-          <li><b>Systems: </b>ERP Systems (Order to Cash, Manufacturing, Logistics), WMS.</li>
-          <li><b>Web/Programming (familiar): </b>HTML, CSS, Selenium, Java, Python.</li>
-        </ul>
+      <h2>Core Competencies</h2>
+      <div class="skill-badges">
+        <span>Microsoft SQL Server</span>
+        <span>MySQL</span>
+        <span>Power BI</span>
+        <span>Tableau</span>
+        <span>MS Project</span>
+        <span>Jira</span>
+        <span>Confluence</span>
+        <span>GitHub</span>
+        <span>ERP Systems</span>
+        <span>WMS</span>
+        <span>HTML/CSS</span>
+        <span>Python</span>
+        <span>Java</span>
+        <span>Selenium</span>
+      </div>
     </section>
 
-    <section id="experience" class="card">
-        <h2>Work Experience</h2>
-        <article>
-          <h3>IT Business Analyst - Manufacturing and Transportation</h3>
-          <p><em>Springs Window Fashions</em> — Apr 2025 – Present | Chicago, IL </p>
-          <ul>
-            <li>Support the Loftware Cloud Upgrade Project by coordinating the transition from on-premises to cloud
-                based labeling systems, enhancing scalability, compliance, and operational efficiency.</li>
-            <li>Collaborate with cross-functional teams across manufacturing and logistics to capture requirements, 
-                document workflows, and align ERP integrations with business needs.</li>
-          </ul>
-        </article>
-
-        <article>
+    <div class="experience-certifications">
+      <!-- Work Experience -->
+        <section id="experience" class="card">
+            <h2>Work Experience</h2>
+        
+            <article>
+            <h3>IT Business Analyst - Manufacturing and Transportation</h3>
+            <p><em>Springs Window Fashions</em> — Apr 2025 – Present | Chicago, IL</p>
+            <ul>
+                <li>Support Loftware Cloud Upgrade Project transitioning on-premises to cloud-based labeling.</li>
+                <li>Collaborate with cross-functional teams to capture requirements and align ERP integrations.</li>
+            </ul>
+            </article>
+        
+            <article>
             <h3>Graduate Student Assistant</h3>
-            <p><em>Illinois Institute of Technology</em> — Apr 2024 – April 2025 | Chicago, IL </p>
+            <p><em>Illinois Institute of Technology</em> — Apr 2024 – Apr 2025 | Chicago, IL</p>
             <ul>
-              <li>Handled 20+ daily phone inquiries and routed 100+ weekly student requests through Salesforce, ensuring
-                timely resolution and improved student satisfaction.</li>
-              <li>Maintained accurate student records while supporting process documentation and reporting.
-            </li>
+                <li>Handled 20+ daily phone inquiries and routed 100+ weekly student requests through Salesforce.</li>
+                <li>Maintained accurate student records and process documentation.</li>
             </ul>
-        </article>
-
-        <article>
+            </article>
+        
+            <article>
             <h3>IT Business Analyst – Order to Cash</h3>
-            <p><em>Springs Window Fashions</em> — Aug 2021 – Oct 2023 | Middleton, WI </p>
+            <p><em>Springs Window Fashions</em> — Aug 2021 – Oct 2023 | Middleton, WI</p>
             <ul>
-              <li>Led ERP system upgrade, enhancing Order Management (Order Entry to Invoicing), Order Promising, and
-                Promotions modules, resulting in faster order processing and improved shipment accuracy.</li>
-              <li>Implemented Order Promising module to calculate delivery dates based on inventory and plant capacity
-                across U.S. and Mexico facilities, accounting for supply chain and labor constraints.</li>
-              <li>Designed and deployed Power BI dashboards that improved supply chain visibility and reduced material
-                shortages by 15%.</li>
-              <li>Partnered with stakeholders and SMEs to document requirements and recommend system improvements,
-                increasing ERP efficiency by 30%.</li>
-              <li>Acted as liaison between business and technical teams, coordinating UAT, deployments, and SQLsupported data transfers to ensure accurate system migrations.</li>
-              <li>Delivered key projects including upgrading the Graber dealer portal with a dynamic configurator, modifying
-                EDI 850 transmissions for Lowe’s orders. </li>
+                <li>Led ERP system upgrade, enhancing order management and promotions modules.</li>
+                <li>Implemented Order Promising module for delivery calculations across U.S. and Mexico facilities.</li>
+                <li>Designed Power BI dashboards, improving supply chain visibility and reducing shortages by 15%.</li>
+                <li>Partnered with stakeholders to document requirements and recommend system improvements.</li>
+                <li>Delivered projects including Graber dealer portal upgrade and EDI 850 modifications for Lowe’s orders.</li>
             </ul>
-        </article>
-
-        <article>
+            </article>
+        
+            <article>
             <h3>Software Developer</h3>
-            <p><em>Novus Labs</em> — March 2021 – July 2021 | Hillsboro, OR </p>
+            <p><em>Novus Labs</em> — March 2021 – July 2021 | Hillsboro, OR</p>
             <ul>
-              <li>Integrated hardware lock licensing and activation for Windows and Linux applications, ensuring secure and
-                reliable functionality.</li>
-              <li>Executed audio/video testing across HDMI, web streaming, and Miracast devices to validate content
-                delivery and identify issues such as dropouts, blackouts, skips, jitters, and freezes using Scarlett 18i8 and
-                APx analyzer.</li>
-              <li>Conducted acoustic and over-the-air noise testing on smart devices to measure response times and
-                performance accuracy.</li>
-              <li>Developed detailed test proposals and test case scenarios, obtaining client sign-off for application testing
-                and validation.</li>
-              <li>Facilitated weekly client sessions to provide guidance on documentation and project tracking in
-                Confluence.</li>
+                <li>Integrated hardware lock licensing and activation for Windows and Linux applications, ensuring secure and reliable functionality.</li>
+                <li>Executed audio/video testing across HDMI, web streaming, and Miracast devices to validate content delivery and identify issues such as dropouts, blackouts, skips, jitters, and freezes using Scarlett 18i8 and APx analyzer.</li>
+                <li>Conducted acoustic and over-the-air noise testing on smart devices to measure response times and performance accuracy.</li>
+                <li>Developed detailed test proposals and test case scenarios, obtaining client sign-off for application testing and validation.</li>
+                <li>Facilitated weekly client sessions to provide guidance on documentation and project tracking in Confluence.</li>
             </ul>
-        </article>
-
-        <article>
+            </article>
+        
+            <article>
             <h3>Teaching Assistant</h3>
-            <p><em>University of Nebraska at Omaha</em> — Jan 2017 – Dec 2020 | Omaha, NE </p>
+            <p><em>University of Nebraska at Omaha</em> — Jan 2017 – Dec 2020 | Omaha, NE</p>
             <ul>
-              <li>Assisted 100+ students in subjects including Calculus, Trigonometry, College Algebra, Statistics and
-                Probability. Instructed students on the proper use of mathematical software (MyMathLab). Provided oneon-one tutoring sessions as well as group sessions.</li>
+                <li>Assisted 100+ students in subjects including Calculus, Trigonometry, College Algebra, Statistics, and Probability.</li>
+                <li>Instructed students on the proper use of mathematical software (MyMathLab) and provided one-on-one tutoring sessions as well as group sessions.</li>
             </ul>
-        </article>
+            </article>
+        </section>
+  
+      <!-- Certifications Aside -->
+      <aside id="certifications" class="card">
+        <h2>Certifications</h2>
+        <div class="cert">
+          <h3>Systems Development Certificate</h3>
+          <p><em>University of Nebraska at Omaha College of Information Science & Technology</em></p>
+          <p>Issued Dec 2020 | <a href="https://www.parchment.com/u/award/29b1e06dbc315ef956bec0294602ca62" target="_blank">View Credential</a></p>
+        </div>
+        <div class="cert">
+          <h3>Python Programming</h3>
+          <p><em>The University of Texas System</em></p>
+          <p>Issued Mar 2016 | <a href="https://courses.edx.org/certificates/a580d18d2e954d98851ec501c058f455" target="_blank">View Credential</a></p>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Projects -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+
+      <article class="project-card">
+        <h3>MetraVibe - Train Ticket Booking Application</h3>
+        <p><em>Illinois Institute of Technology</em> — Oct 2024 - Dec 2024</p>
+        <ul>
+          <li>Developed secure platform for train ticket bookings with Java, SQL, JavaFX, and CSS.</li>
+          <li>User authentication with Bcrypt, secure debit/credit card integration.</li>
+          <li>Admin section for managing users, trains, and stations with password hashing.</li>
+          <li><a href="https://github.com/diksha0106/ITMD510-FinalProject.git" target="_blank">GitHub Repository</a></li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <h3>Social Media Platform Analysis - X (Formerly Twitter)</h3>
+        <p><em>Illinois Institute of Technology</em> — Feb 2024 - May 2024</p>
+        <ul>
+          <li>Data mining and analysis on platform rebranding focusing on sentiment, financial impact, and user behavior.</li>
+          <li>Tools used: R Programming, Python, Tableau.</li>
+          <li>Developed predictive models to forecast platform performance.</li>
+        </ul>
+      </article>
     </section>
 
-    <section id="projects" class="card">
-        <h2>Projects</h2>
-        <article>
-          <h3>MetraVibe - Train Ticket Booking Application</h3>
-          <p><em>Illinois Institute of Technology</em> — Oct 2024 - Dec 2024</p>
-          <ul>
-            <li>Developed a robust and secure platform for managing train ticket bookings with a seamless user experience.</li>
-            <li>Implemented user authentication and management system: sign-up, login, manage account, and secure password reset using <strong>Bcrypt</strong>.</li>
-            <li>Enabled users to view available train lines, select stations, and automatically calculate ticket prices.</li>
-            <li>Integrated secure debit/credit card payment system with authentication for card validity.</li>
-            <li>Provided "Manage Bookings" section for users to view and manage their reservations.</li>
-            <li>Built an admin section for managing users, trains, and station information with password security ensured via hashing.</li>
-            <li>Database designed in <strong>Third Normal Form (3NF)</strong> for efficient data management and integrity.</li>
-            <li>Technologies used: Java, SQL, Bcrypt, JavaFX, CSS.</li>
-            <li>GitHub Repository: <a href="https://github.com/diksha0106/ITMD510-FinalProject.git" target="_blank">https://github.com/diksha0106/ITMD510-FinalProject.git</a></li>
-          </ul>
-        </article>
-
-        <article>
-            <h3>Social Media Platform Analysis - X (Formerly Twitter)</h3>
-            <p><em>Illinois Institute of Technology</em> — Feb 2024 - May 2024</p>
-            <ul>
-              <li>Led a comprehensive data mining project analyzing the rebranding of Twitter to X, focusing on user sentiment, financial impact, and market perception.</li>
-              <li>Gathered data from multiple sources including social media posts, national polls, and financial reports; used R Programming, Python, and Tableau for data processing and visualization.</li>
-              <li>Conducted in-depth sentiment analysis of user reactions to the rebranding, ownership change, and new features, tracking trends across user segments and time periods.</li>
-              <li>Assessed financial implications of the rebranding, including changes in stock prices, advertising revenue, and overall market valuation.</li>
-              <li>Examined user engagement metrics, retention rates, and adoption of new features introduced post-rebranding.</li>
-              <li>Developed predictive models to forecast user behavior and platform performance based on historical data and current trends.</li>
-              <li>Showcased strong skills in data mining, statistical analysis, and strategic thinking, providing actionable insights for platform management and rebranding strategies.</li>
-              <li>Technologies used: R Programming, Python, Tableau.</li>
-            </ul>
-        </article>
-          
-      </section>
-            
-  
-
-
-  
-  
   </main>
 
   <footer class="site-footer">
+    <p>© Diksha Dilip Gaonkar — Hosted on GitHub Pages</p>
   </footer>
 
 </body>
 </html>
+
+
