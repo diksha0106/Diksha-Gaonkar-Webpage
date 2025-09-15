@@ -62,4 +62,26 @@ body {
 /* Education */
 #education p { margin-bottom: 12px; }
 
+/* Skills */
+#skills ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #374151;
+}
+
+/* Experience */
+#experience h3 { 
+    font-size: 1.1rem; 
+    margin-bottom: 4px; 
+  }
+  
+  #experience ul { 
+    margin-left: 20px; 
+  }
+  
+  /* Add spacing between each job */
+  #experience article {
+    margin-bottom: 2rem;  /* Adjust value as needed */
+  }
+  
   
